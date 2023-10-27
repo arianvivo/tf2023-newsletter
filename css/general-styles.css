@@ -1,0 +1,182 @@
+/* Full reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url("../Recursos/img/wallpaper-clear.jpg")
+}
+
+/* Estilos del encabezado */
+
+.titulo {
+    text-align: center;
+    font-family: 'Norasi' 'Times New Roman', Times, serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.titulo img {
+    height: 100px;
+    margin: auto 50px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.modo-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modo-container * {
+    font-size: 40px;
+    margin: auto 20px;
+}
+
+.modo-container input {
+    width: 30px;
+    height: 30px;    
+}
+
+.contenido {
+    display: flex;
+}
+
+
+
+/* Noticias y articulos */
+
+main {
+    width: 80%
+    
+}
+
+.noticia-container {
+    display: flex;
+    min-height: 400px;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 90%;
+}
+
+article:nth-child(even){
+    flex-direction: row;
+}
+
+article:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.noticia {
+    width: 50%;
+}
+.noticia h2 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.noticia p {
+    padding: 20px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.figure-noticias {
+    width: 30%;
+    height:90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imagen-noticia {
+    width: 100%;
+}
+
+/* Cuestionario */
+
+.encuesta {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.encuesta-campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encuesta-campo input {
+    height: 30px;
+    text-align: center;
+}
+
+.encuesta * {
+    width: 40%;
+    margin: 5px auto;
+}
+
+.encuesta fieldset {
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+    text-align: left;
+}
+
+#encuesta-enviar {
+    width: 25%;
+    height: 30px;
+}
+
+/* Barra lateral */
+
+section {
+    margin: 20px auto; 
+    padding: 10px;
+    width: 90%;
+    min-height: 300px;
+}
+
+
+aside {
+    min-height: 100%;
+    width: 20%;
+    margin: 20px;
+    float: right;
+    top: 0;
+    left: 20px;
+}
+
+
+.figure-sidebar{
+    border: 1px solid;
+    margin: 20px auto; 
+    width: 90%;
+    min-height: 100px;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}

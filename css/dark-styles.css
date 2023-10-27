@@ -1,0 +1,78 @@
+
+/* WALLPAPER */
+
+body {
+    background-image:url("../Recursos/img/wallpaper-dark.jpg")
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.modo-container {
+    background-color: #2a2a3b;
+    border: 2px solid #bdbdaf;;
+}
+
+.modo-container * {
+    color: #e8e8de;
+}
+
+/* Estilos del encabezado */
+
+.titulo {
+
+    background-color: #2a2a3b;
+    color: #e8e8de;
+    border-bottom: 2px solid white;
+
+}
+
+.noticia-container {
+    border: 2px solid #bdbdaf;
+    background-color: #2a2a3b
+}
+
+.noticia  * {
+    color: #bdbdaf;
+}
+
+.figure-noticias {
+    border: 3px solid green;
+    color: #bdbdaf;
+}
+
+/* Cuestionario */
+
+.encuesta {
+    color: #bdbdaf;
+    border: 2px solid #bdbdaf;
+    background-color: #2a2a3b
+    
+}
+
+.encuesta fieldset {
+    border: 2px solid #bdbdaf;
+}
+
+/* Barra lateral */
+
+section{
+    border: 1px solid #bdbdaf;
+
+}
+
+aside {
+    border: 1px solid #bdbdaf;
+    background-color: #2a2a3b;
+}
+
+.advertisement * {
+    color: #bdbdaf;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3f3f5e;
+    color: #bdbdaf;
+
+}
